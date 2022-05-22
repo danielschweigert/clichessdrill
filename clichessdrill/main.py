@@ -2,8 +2,8 @@
 cli entrypoint
 
 Usage:
-    cdcli [<n>]
-    cdcli [<n>] -f <training_file_path>
+    clichessdrill [<n>]
+    clichessdrill [<n>] [-f <training_file_path>]
 
 Options:
     -h --help       Show this screen.
@@ -26,7 +26,6 @@ random.seed(int(time.time()))
 def main():
 
     arguments = docopt(__doc__)
-    print(arguments)
 
     n_rounds = arguments.get('<n>')
     n_rounds = 1 if n_rounds is None else n_rounds
@@ -37,7 +36,7 @@ def main():
         print(message)
         sys.exit(0)
 
-    if arguments['-f']:
+    if arguments.get('-f'):
         training_file_path = arguments['<training_file_path>']
     else:
         training_file_path = DEFAULT_GAME_PLAN
