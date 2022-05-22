@@ -83,6 +83,6 @@ The subsections for the respective game color represent the decision branches ac
 respond while playing either of the sides. The decision trees can be arbitrarily deep and leaves should terminate 
 with empty brackets `{}`
 ### Example Game Play
-![game play 1](./docs/screenshots/game_play_1.png)
-![game play 2](./docs/screenshots/game_play_2.png)
-![game play 3](./docs/screenshots/game_play_3.png)
+![game play 1](https://raw.githubusercontent.com/danielschweigert/clichessdrill/main/docs/screenshots/game_play_1.png)
+![game play 2](https://raw.githubusercontent.com/danielschweigert/clichessdrill/main/docs/screenshots/game_play_2.png)
+![game play 3](https://raw.githubusercontent.com/danielschweigert/clichessdrill/main/docs/screenshots/game_play_3.png)

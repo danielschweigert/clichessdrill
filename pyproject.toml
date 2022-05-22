@@ -1,13 +1,17 @@
 [tool.poetry]
 name = "clichessdrill"
-version = "0.1.13"
+version = "0.1.16"
 description = ""
 authors = ["Daniel Schweigert <dan.schweigert@gmail.com>"]
 license = "MIT"
 include = [
     "LICENSE",
-    "gameplans/daniel-01.json"
+    "gameplans/daniel-01.json",
+    "docs/screenshots/game_play_1.png",
+    "docs/screenshots/game_play_2.png",
+    "docs/screenshots/game_play_3.png",
 ]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
