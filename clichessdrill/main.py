@@ -18,7 +18,7 @@ from docopt import docopt
 from clichessdrill.game import Game
 from clichessdrill.pieces import Pieces
 
-DEFAULT_GAME_PLAN = 'gameplans/daniel-01.json'
+DEFAULT_GAME_PLAN = os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', 'gameplans', 'daniel-01.json')
 
 random.seed(int(time.time()))
 
