@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "clichessdrill"
-version = "0.1.12"
+version = "0.1.13"
 description = ""
 authors = ["Daniel Schweigert <dan.schweigert@gmail.com>"]
 license = "MIT"
