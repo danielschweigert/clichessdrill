@@ -3,6 +3,7 @@ name = "clichessdrill"
 version = "0.1.16"
 description = ""
 authors = ["Daniel Schweigert <dan.schweigert@gmail.com>"]
+repository = "https://github.com/danielschweigert/clichessdrill"
 license = "MIT"
 include = [
     "LICENSE",

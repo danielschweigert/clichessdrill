@@ -1,16 +1,16 @@
 # clichessdrill
 practice chess drills in a command line interface
 
-### Installation
-via PyPI:
+## Installation
+from PyPI:
 
 ```pip install clichessdrill```
 
-from source:
+or from source:
 
 ```poetry install```
 
-### Play
+## Play
 To run and play one round:
 
 ```chessdrill```
@@ -22,7 +22,7 @@ chessdrill -n 10
 If no training file is specified during the call, a standard built in drill plan 
 will be used.
 
-##### Custom drill training plans
+#### Custom drill training plans
 In addition, the user has the option to use their own custom training plan. To play 
 and execute a custom drill plan saved as a json file use the `-f` option to 
 point to the path of the training file:
