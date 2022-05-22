@@ -13,11 +13,11 @@ or from source:
 ## Play
 To run and play one round:
 
-```chessdrill```
+```clichessdrill```
 
-To play any number of drills in a row, use the `-n` option. For example:
+To play any number of drills in a row, add the respective number. For example:
 ```
-chessdrill -n 10
+clichessdrill 10
 ```
 If no training file is specified during the call, a standard built in drill plan 
 will be used.
@@ -28,7 +28,7 @@ and execute a custom drill plan saved as a json file use the `-f` option to
 point to the path of the training file:
 
 ```
-chessdrill -n 20 -f my/training/file.json
+chessdrill 20 -f my/training/file.json
 ```
 The layout of the drill plan is a representation of the decision tree. As an example:
 ```json
