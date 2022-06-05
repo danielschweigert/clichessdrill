@@ -15,22 +15,10 @@ To run and play one round:
 
 ```clichessdrill```
 
-To play any number of drills in a row, add the respective number. For example:
-```
-clichessdrill 10
-```
-If no training file is specified during the call, a standard built in drill plan 
-will be used.
+and then follow the menu options.
 
 #### Custom drill training plans
-In addition, the user has the option to use their own custom training plan. To play 
-and execute a custom drill plan saved as a json file use the `-f` option to 
-point to the path of the training file:
-
-```
-chessdrill 20 -f my/training/file.json
-```
-The layout of the drill plan is a representation of the decision tree. As an example:
+The user has the option to use their own custom training plan. The layout of the drill plan is a representation of the decision tree. As an example:
 ```json
 {
   "name": "my drill plan",
