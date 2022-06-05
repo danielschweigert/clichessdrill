@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "clichessdrill"
-version = "0.2.1"
+version = "0.2.2"
 description = ""
 authors = ["Daniel Schweigert <dan.schweigert@gmail.com>"]
 repository = "https://github.com/danielschweigert/clichessdrill"
 license = "MIT"
 include = [
     "LICENSE",
-    "gameplans/default.json",
+    "game_plans/default.json",
     "docs/screenshots/game_play_1.png",
     "docs/screenshots/game_play_2.png",
     "docs/screenshots/game_play_3.png",
