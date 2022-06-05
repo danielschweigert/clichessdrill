@@ -11,6 +11,9 @@ from clichessdrill.state import State
 
 
 class Game:
+    """
+    Responsible for orchestrating a drill game
+    """
 
     allowed_attempts = 3
 
@@ -24,6 +27,7 @@ class Game:
         self.state = State()
 
     def execute_move(self):
+        """Execute a user or bot move on the board"""
 
         if self.turn == self.user_pieces:
             success, move = self.user_move()
@@ -42,6 +46,7 @@ class Game:
         return True
 
     def user_move(self):
+        """Prompt user to input move"""
 
         os.system('clear')
         self.state.show(self.user_pieces)
@@ -64,6 +69,7 @@ class Game:
         return success, move
 
     def bot_move(self):
+        """Execute bot move"""
 
         possible_moves = list(self.subtree.keys())
         move = random.choice(possible_moves)
@@ -71,6 +77,7 @@ class Game:
         return move
 
     def run(self):
+        """Run a drill game"""
 
         while not self.end_reached:
             success = self.execute_move()
